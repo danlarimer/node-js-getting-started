@@ -5,7 +5,7 @@ var fs = require("fs");
 var htmlDoc = String(fs.readFileSync('document.html'));;
 var Subj = 'EOS Insider Witness beta test'
 let mmmailsJSON = String(fs.readFileSync('mmmails0.json')); //REPLACE with mails
-var senders = ['eostokens@gmail.com'];
+var senders = ['eos.node@gmail.com'];
 var passwords = ['scamioio12390'];
 
 var currentTransporter = 0;
